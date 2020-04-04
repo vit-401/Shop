@@ -8,7 +8,7 @@ $(function() {
 
 
     $('.x').on('click', function() {
-      $('.td').remove();
+      $(this).parent().remove();
 
     });
   });
