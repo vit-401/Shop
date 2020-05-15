@@ -1,0 +1,17 @@
+html{
+  background-color: red;
+}
+body{
+  box-sizing: border-box;
+}
+.box{
+  &-1{
+    display: none;
+  }
+  &-2{
+    display: none;
+  }
+  &-3{
+    display: none;
+  }
+}
